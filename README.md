@@ -42,6 +42,9 @@ However, the amount of effort needed to maintain and develop new features and pr
 
 ## Overview
 
+##### 15/11/23: Forked to drop commit 013693 from https://github.com/roots/wp-password-bcrypt, removing Application Password support since it breaks password reset over AJAX.
+
+
 wp-password-bcrypt is a WordPress plugin to replace WP's outdated and insecure MD5-based password hashing with the modern and secure [bcrypt](https://en.wikipedia.org/wiki/Bcrypt).
 
 This plugin requires PHP >= 5.5.0 which introduced the built-in [`password_hash`](http://php.net/manual/en/function.password-hash.php) and [`password_verify`](http://php.net/manual/en/function.password-verify.php) functions.
